@@ -13,7 +13,7 @@ return array(
 	|
 	*/
 
-	'app' => __DIR__.'/../app',
+	'app' => $LARAVEL_APPLICATION_DIR,
 
 	/*
 	|--------------------------------------------------------------------------
@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'public' => __DIR__.'/../public',
+	'public' => $LARAVEL_APPLICATION_DIR . '/public',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -52,6 +52,6 @@ return array(
 	|
 	*/
 
-	'storage' => __DIR__.'/../app/storage',
+	'storage' => $LARAVEL_APPLICATION_DIR . '/storage',
 
 );

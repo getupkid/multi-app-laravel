@@ -6,6 +6,8 @@
  * @author   Taylor Otwell <taylorotwell@gmail.com>
  */
 
+$LARAVEL_APPLICATION_DIR = dirname(realpath(__DIR__));
+
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader
@@ -18,7 +20,7 @@
 |
 */
 
-require __DIR__.'/../bootstrap/autoload.php';
+require __DIR__.'/../../../bootstrap/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -32,7 +34,7 @@ require __DIR__.'/../bootstrap/autoload.php';
 |
 */
 
-$app = require_once __DIR__.'/../bootstrap/start.php';
+$app = require_once __DIR__.'/../../../bootstrap/start.php';
 
 /*
 |--------------------------------------------------------------------------
